@@ -9,7 +9,7 @@ export const Tools = () => {
       {DataBaseQuickAccess.map((item) => (
         <Card key={item.id}>
           <Link to={item.url}>
-            <img src={item.img} />
+            <img src={item.img} alt="Imagem usuario"/>
             <p>{item.title}</p>
           </Link>
         </Card>

@@ -14,7 +14,7 @@ export const SideBar = () => {
       <li><NavLink activeclassname="active" to='monitoramento'><HiOutlineAcademicCap />Monitoramento</NavLink></li>
       <li><NavLink activeclassname="active" to='push'><BsCalendarCheck />Push</NavLink></li>
       <li><NavLink activeclassname="active" to='suporte'><BiSupport />Suporte</NavLink></li>
-      <li><a><MdLogout />Logout</a></li>
+      <li><MdLogout />Logout</li>
     </List>
   )
 };
@@ -37,6 +37,8 @@ const List = styled.ul`
     display: flex;
     align-items: center;
     margin: 15px 0;
+    cursor: pointer;
+    color: black;
 
     a {
       padding: 10px 0 10px 50px;

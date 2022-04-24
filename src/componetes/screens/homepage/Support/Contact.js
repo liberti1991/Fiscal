@@ -20,6 +20,7 @@ export const Contact = () => {
       <Whatsapp>
         <a
           href="https://api.whatsapp.com/send?phone=554197000028&text=Olá.%20Gostaria%20de%20saber%20mais%20sobre%20os%20Serviços!%20"
+          rel="noopener noreferrer"
           target="_blank"
           title="Whatsapp"
         >
