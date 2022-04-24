@@ -7,16 +7,15 @@ export const Contact = () => {
     <Container>
       <h5>Endereço:</h5>
       <p>
-        Rua. Expedicionário Eurides Fernandes do Nascimento, 348, Alto
-        Boqueirão.
+        Rua. teste
       </p>
       <div>
         <h5>CEP:</h5>
-        <p>81.850-310</p>
+        <p>81.000-000</p>
       </div>
       <p>Curitiba - Paraná - Brasil</p>
       <h5>E-mail:</h5>
-      <p>fiscalc@fiscalc.com.br</p>
+      <p>liberti1991@gmail.com</p>
       <Whatsapp>
         <a
           href="https://api.whatsapp.com/send?phone=554197000028&text=Olá.%20Gostaria%20de%20saber%20mais%20sobre%20os%20Serviços!%20"
